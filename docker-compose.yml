@@ -18,6 +18,7 @@ services:
       - DB_DATABASE=laravel
       - DB_USERNAME=laravel
       - DB_PASSWORD=secret
+      - APP_URL=http://192.168.15.28:8000
     depends_on:
       - finity-mysql
       - finity-redis
